@@ -9,8 +9,6 @@ import pathlib
 import streamlit as st
 #st.image('DSC_0842.JPG')
 st.header('verify ceremonial uniform')
-
-
 class Predict:
     def __init__(self, filename):
         self.learn_inference = load_learner(Path()/filename)
@@ -25,30 +23,21 @@ class Predict:
 ...         if uploaded_file is not None:
 ...             return PILImage.create((uploaded_file))
 ...         return None
-... 
 ...     def display_output(self):
 ...         st.image(self.img.to_thumb(500,500), caption='Uploaded Image')
-... 
 ...     def get_prediction(self):
-... 
 ...         if st.button('Click here! to Classify'):
 ...             pred, pred_idx, probs = self.learn_inference.predict(self.img)
 ...             st.subheader(f'Prediction: *{pred}* with Confidence: *{probs[pred_idx]*100:.02f}*%')
 ...             #st.subheader(f'ผลการทำนาย: *{pred}* ด้วยความมั่นใจ: *{probs[pred_idx]*100:.02f}*%')
 ...             st.subheader(f'You are currently use *{model}* model!')
-...     
 ...             if pred == 'true' :
 ...                 st.image('29072.png')
 ...             else pred == 'false' :
 ...                 st.image('29072.png')
-...            
-... 
 ...             st.balloons()
 ...         #else: 
 ...          #   st.write(f'Click the button to classify') 
-... 
-... 
-... 
 ...     if __name__=='__main__':
 ...         #st.write('You are currently use Resnet50 model')
 ...         resnet_model ='project_resnet50_vtest.pkl'
