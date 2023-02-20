@@ -6,7 +6,6 @@ from fastai import *
 import pathlib
 #pathlib.PosixPath = pathlib.WindowsPath
 """
-import streamlit as st
 
 st.image('DSC_0842.JPG')
 st.header('verify ceremonial uniform')
