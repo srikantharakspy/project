@@ -3,7 +3,7 @@ from fastai.vision.all import *
 from fastai import *
 
 import pathlib
-#pathlib.PosixPath = pathlib.WindowsPath
+pathlib.PosixPath = pathlib.WindowsPath
 import streamlit as st
 
 st.image('LINE_ALBUM_ชุดพิธีการ_๒๓๐๒๒๐.jpg')
