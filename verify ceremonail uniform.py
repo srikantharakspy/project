@@ -42,14 +42,13 @@ class Predict:
 ...     
 ...             if pred == 'true' :
 ...                 st.image('DSC_1843.jpg','DSC_1353.jpg'DSC_)
-...             elif pred == 'false' :
+...             else pred == 'false' :
 ...                 st.image('DSC_0842.jpg','DSC_1401')
-...             else :
-...                 st.image('Sc.png')
+...            
 ... 
 ...             st.balloons()
-...         #else: 
-...            # st.write(f'Click the button to classify') 
+...         else: 
+...             st.write(f'Click the button to classify') 
 ... 
 ... 
 ... if model == 'Resnet50':
