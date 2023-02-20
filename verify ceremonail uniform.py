@@ -8,7 +8,7 @@ import pathlib
 """
 import streamlit as st
 
-st.image('29072.png')
+st.image('DSC_0842.JPG')
 st.header('verify ceremonial uniform')
 
 """
