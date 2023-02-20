@@ -7,7 +7,7 @@ import pathlib
 import streamlit as st
 
 st.image('DSC_0842.JPG')
-st.header('Clouds Classification Demonstrate')
+st.header('Verify Ceremonail Uniform')
 
 model = st.radio(
     'What MODEL do you want to use?',
