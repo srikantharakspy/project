@@ -42,8 +42,10 @@ class Predict:
     
             if pred == 'true' :
                 st.image('DSC_0842.JPG')
+                st.write('แต่งถูกละจ้า')
             else :
                 st.image('DSC_1401.JPG')
+                st.write('แต่งผิดจ้า')
 
             st.balloons()
         #else: 
