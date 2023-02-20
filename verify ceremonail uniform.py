@@ -6,7 +6,7 @@ import pathlib
 pathlib.PosixPath = pathlib.WindowsPath
 import streamlit as st
 
-st.image('LINE_ALBUM_ชุดพิธีการ_๒๓๐๒๒๐.jpg')
+st.image('29072.png')
 st.header('verify ceremonial uniform')
 
 model = st.radio(
@@ -41,9 +41,9 @@ class Predict:
 ...             st.subheader(f'You are currently use *{model}* model!')
 ...     
 ...             if pred == 'true' :
-...                 st.image('DSC_1849 - Copy (2).JPG')
+...                 st.image('29072.png')
 ...             else pred == 'false' :
-...                 st.image('DSC_0842.JPG')
+...                 st.image('29072.png')
 ...            
 ... 
 ...             st.balloons()
