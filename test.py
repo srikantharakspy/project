@@ -9,10 +9,7 @@ import streamlit as st
 st.image('DSC_0842.JPG')
 st.header('Verify Ceremonail Uniform')
 
-model = st.radio(
-    'What MODEL do you want to use?',
-    ('Resnet50')
-)
+model = 'Resnet50'
 
 class Predict:
     def __init__(self, filename):
