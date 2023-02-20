@@ -9,7 +9,7 @@ import streamlit as st
 st.image('29072.png')
 st.header('verify ceremonial uniform')
 
-
+"""
 class Predict:
     def __init__(self, filename):
         self.learn_inference = load_learner(Path()/filename)
@@ -52,7 +52,7 @@ class Predict:
 ...         #st.write('You are currently use Resnet50 model')
 ...     resnet_model ='project_resnet50_vtest.pkl'
 ...     predictor_resnet = Predict(resnet_model)
-... 
+... """
 ... 
 ... st.text('      ')
 ... st.text('      ')
