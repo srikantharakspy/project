@@ -9,10 +9,6 @@ import streamlit as st
 st.image('29072.png')
 st.header('verify ceremonial uniform')
 
-model = st.radio(
-    'What MODEL do you want to use?',
-    ('Resnet50')
-)
 
 class Predict:
     def __init__(self, filename):
@@ -51,11 +47,11 @@ class Predict:
 ...          #   st.write(f'Click the button to classify') 
 ... 
 ... 
-... if model == 'Resnet50':
-...     if __name__=='__main__':
+... 
+...if __name__=='__main__':
 ...         #st.write('You are currently use Resnet50 model')
-...         resnet_model ='project_resnet50_vtest.pkl'
-...         predictor_resnet = Predict(resnet_model)
+...     resnet_model ='project_resnet50_vtest.pkl'
+...     predictor_resnet = Predict(resnet_model)
 ... 
 ... 
 ... st.text('      ')
