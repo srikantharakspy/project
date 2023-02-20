@@ -11,7 +11,7 @@ st.header('Verify Ceremonail Uniform')
 
 model = st.radio(
     'What MODEL do you want to use?',
-    ('Resnet50', 'MobileNet v3 small', 'VGG16 with batch normalization')
+    ('Resnet50')
 )
 
 class Predict:
