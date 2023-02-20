@@ -55,10 +55,11 @@ class Predict:
 ...     resnet_model ='project_resnet50_vtest.pkl'
 ...     predictor_resnet = Predict(resnet_model)
 ... """
-... 
+...""" 
 ... st.text('      ')
 ... st.text('      ')
 ... st.text('      ')
 ... #st.text('Credit')
 ... st.text('[developers] Thasinee Srikantharak,Phatcharapa Suratewee')
 ... st.text('[advisors] Suthut Butchanon')
+"""
