@@ -59,4 +59,3 @@ class Predict:
 ... #st.text('Credit')
 ... st.text('[developers] Thasinee Srikantharak,Phatcharapa Suratewee')
 ... st.text('[advisors] Suthut Butchanon')
-"""
