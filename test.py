@@ -49,10 +49,10 @@ class Predict:
 ... 
 ... 
 ... 
-...if __name__=='__main__':
+...     if __name__=='__main__':
 ...         #st.write('You are currently use Resnet50 model')
-...     resnet_model ='project_resnet50_vtest.pkl'
-...     predictor_resnet = Predict(resnet_model)
+...         resnet_model ='project_resnet50_vtest.pkl'
+...         predictor_resnet = Predict(resnet_model)
 ... st.text('      ')
 ... st.text('      ')
 ... st.text('      ')
