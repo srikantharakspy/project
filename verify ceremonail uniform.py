@@ -7,7 +7,7 @@ import pathlib
 #pathlib.PosixPath = pathlib.WindowsPath
 """
 import streamlit as st
-#st.image('DSC_0842.JPG')
+#st.image('head.jpg')
 st.header('verify ceremonial uniform')
 
 """
