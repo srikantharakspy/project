@@ -6,7 +6,7 @@ import pathlib
 #pathlib.PosixPath = pathlib.WindowsPath
 import streamlit as st
 
-st.image('DSC_0842.JPG')
+st.image('head.jpg')
 st.header('Verify Ceremonail Uniform')
 
 model = 'Resnet50'
@@ -38,10 +38,10 @@ class Predict:
             st.subheader(f'You are currently use *{model}* model!')
     
             if pred == 'true' :
-                st.image('DSC_0842.JPG')
+                st.image('True.jpg')
                 st.write('แต่งถูกละจ้า')
             else :
-                st.image('DSC_1401.JPG')
+                st.image('False.jpg')
                 st.write('แต่งผิดจ้า')
 
             st.balloons()
